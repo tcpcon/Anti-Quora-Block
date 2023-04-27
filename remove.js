@@ -1,4 +1,4 @@
-if (document.querySelector("#root > div > div.q-box > div:nth-child(2) > div") != undefined) {
+if (document.querySelector("#root > div > div.q-box > div:nth-child(2) > div") != undefined) { // if the page contains login prompt
     const signInBox = document.querySelector("#root > div > div.q-box > div:nth-child(2) > div");
     signInBox.remove(); // remove sign-in box
 
