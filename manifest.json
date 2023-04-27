@@ -1,0 +1,11 @@
+{
+    "name": "Remove Quora Login Prompt",
+    "version": "1.0.0",
+    "description": "Extension to remove quora's sign in popup block",
+    "manifest_version": 3,
+    "author": "github.com/tcpcon",
+    "content_scripts": [{
+        "matches": ["https://*.quora.com/*"],
+        "js": ["remove.js"]
+    }]
+}
